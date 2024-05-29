@@ -60,13 +60,28 @@ class Program {
     // 3.5 capturar los números elegidos por el usuario
     Console.Write("\nDigitar numero 1: ");
     int numero1 = Int32.Parse(Console.ReadLine());
-    Console.Write("\nDigitar numero 1: ");
+    Console.Write("\nDigitar numero 2: ");
     int numero2 = Int32.Parse(Console.ReadLine());
     
     // 4 Validar opción elegida
     if( opcion == 1){
-            
+        Console.WriteLine("La suma es: " + (numero1+numero2));
     }
+    
+    if( opcion == 2){
+        Console.WriteLine("La resta es: " + (numero1-numero2));
+    }
+    
+    if( opcion == 3){
+        Console.WriteLine("La multiplicación es: " + (numero1*numero2));
+    }
+    
+    if( opcion == 4){
+    
+        Console.WriteLine("La división es: " + (numero1/numero2));
+    }
+    
+    
     
     // 5 Mostrar resultado o finalizar ejecución
     }
