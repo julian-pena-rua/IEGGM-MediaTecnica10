@@ -57,6 +57,10 @@ class Program {
     Console.Write("Digitar opción deseada: ");
     int opcion = Int32.Parse(Console.ReadLine());
 
+    if (opcion == 5){
+        goto Salir;
+    }
+
     // 3.5 capturar los números elegidos por el usuario
     Console.Write("\nDigitar numero 1: ");
     int numero1 = Int32.Parse(Console.ReadLine());
@@ -83,10 +87,10 @@ class Program {
         else{
             Console.WriteLine("No se puede dividir por cero.");    
         }
-        
     }
     
-    
+    Salir:
+        Console.WriteLine("Saliendo del programa...");
     
     // 5 Mostrar resultado o finalizar ejecución
     }
