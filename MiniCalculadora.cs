@@ -43,6 +43,7 @@ class Program {
     Console.WriteLine("       Bienvenido a la MiniCalculadora ");
     Thread.Sleep(3000); // 3 segundos = 3000 milisegundos
     Console.Clear();
+    
     // 2 Mostrar menú de opciones
     Console.WriteLine("Menú de opciones");
     Console.WriteLine("Seleccionar la opción deseada:");
@@ -51,10 +52,11 @@ class Program {
     Console.WriteLine("3. Multiplicación");
     Console.WriteLine("4. Divisón");
     Console.WriteLine("5. Salir");
+    
+    // 3 capturar opción elegida por usuario
     Console.Write("Digitar numero deseado: ");
     int opcion = Int32.Parse(Console.ReadLine());
     
-    // 3 capturar opción elegida por usuario
     // 4 Validar opción elegida
     // 5 Mostrar resultado o finalizar ejecución
     }
