@@ -77,8 +77,13 @@ class Program {
     }
     
     if( opcion == 4){
-    
-        Console.WriteLine("La división es: " + (numero1/numero2));
+        if ( numero1 != 0 || numero2 !=0){
+            Console.WriteLine("La división es: " + (numero1/numero2));    
+        }
+        else{
+            Console.WriteLine("No se puede dividir por cero.");    
+        }
+        
     }
     
     
