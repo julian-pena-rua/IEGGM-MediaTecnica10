@@ -1,6 +1,7 @@
 /******************************************************************************
-
-                Ejercicio estructura de decisión múltiple
+Autor:          Julián A. Peña
+Fecha:          29-05-2024
+Descripción:    Ejercicio estructura de decisión múltiple
 Se desea un programa que ayude diciendo 
 las preferencias según el género:
 - Si es un hombre menor de edad sus preferencias son:
