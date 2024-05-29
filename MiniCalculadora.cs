@@ -54,10 +54,20 @@ class Program {
     Console.WriteLine("5. Salir");
     
     // 3 capturar opción elegida por usuario
-    Console.Write("Digitar numero deseado: ");
+    Console.Write("Digitar opción deseada: ");
     int opcion = Int32.Parse(Console.ReadLine());
+
+    // 3.5 capturar los números elegidos por el usuario
+    Console.Write("\nDigitar numero 1: ");
+    int numero1 = Int32.Parse(Console.ReadLine());
+    Console.Write("\nDigitar numero 1: ");
+    int numero2 = Int32.Parse(Console.ReadLine());
     
     // 4 Validar opción elegida
+    if( opcion == 1){
+            
+    }
+    
     // 5 Mostrar resultado o finalizar ejecución
     }
 }
