@@ -88,10 +88,11 @@ class Program {
             Console.WriteLine("No se puede dividir por cero.");    
         }
     }
-    
+
+       // 5 Mostrar resultado o finalizar ejecución
     Salir:
         Console.WriteLine("Saliendo del programa...");
     
-    // 5 Mostrar resultado o finalizar ejecución
+    
     }
 }
