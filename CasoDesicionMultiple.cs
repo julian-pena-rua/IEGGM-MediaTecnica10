@@ -1,7 +1,6 @@
 /******************************************************************************
-Autor:          Julián A. Peña
-Fecha:          29-05-2024
-Descripción:    Ejercicio estructura de decisión múltiple
+
+                Ejercicio estructura de decisión múltiple
 Se desea un programa que ayude diciendo 
 las preferencias según el género:
 - Si es un hombre menor de edad sus preferencias son:
@@ -14,8 +13,19 @@ las preferencias según el género:
     Maquillaje, Series TV, Cine, filantropía
 *******************************************************************************/
 using System;
-class HelloWorld {
+class programa {
   static void Main() {
-    
-  }
+        // variables
+        Console.WriteLine("Escribir 'hombre' o 'mujer' ");
+        string genero = Console.ReadLine(); // hombre, mujer
+        Console.WriteLine("Escribir edad en números ");
+        int edad = Int32.parse(Console.ReadLine());
+        // validaciones
+        if( genero == "hombre" ){
+            
+        }
+        if( genero == "mujer" ){
+            
+        }
+    }
 }
