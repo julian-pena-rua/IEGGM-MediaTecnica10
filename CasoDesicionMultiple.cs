@@ -18,14 +18,26 @@ class programa {
         // variables
         Console.WriteLine("Escribir 'hombre' o 'mujer' ");
         string genero = Console.ReadLine(); // hombre, mujer
+        
         Console.WriteLine("Escribir edad en números ");
-        int edad = Int32.parse(Console.ReadLine());
+        int edad = Int32.Parse(Console.ReadLine());
+        
         // validaciones
         if( genero == "hombre" ){
-            
+            if ( edad > 17 ){
+                Console.WriteLine("cine, picnic y filantropía");
+            }
+            else{
+                Console.WriteLine("Figuras de acción, Caricaturas, Series TV");
+            }
         }
         if( genero == "mujer" ){
-            
+             if ( edad > 17 ){
+                Console.WriteLine("Maquillaje, Series TV, Cine, filantropía");
+            }
+            else{
+                Console.WriteLine("Muñecas, Maquillaje, Series TV");
+            }
         }
     }
 }
