@@ -21,44 +21,47 @@ Parque Explora, el Jardín Botánico y el Parque Arví.
 *******************************************************************************/
 
 using System;
+using System.Threading;
+
 class MetroAventura {
-  static void Main() {
-    // variables
-    string[] estacionesMetro = {
-        "Parque Berrio", 
-        "Universidad",
-        "Acevedo",
-        "Arví",
-        "Niquia",
-        "Bello"}; 
+    static void Main() {
+        // variables
+        string[] estacionesMetro = {
+            "Parque Berrio", 
+            "Universidad",
+            "Acevedo",
+            "Arví",
+            "Niquia",
+            "Bello"}; 
         
-    string[] estacionesOrdenVisita = {
-        "Universidad",
-        "Arví"};
+        string[] estacionesOrdenVisita = {
+            "Universidad",
+            "Arví"};
+        
+        string[] jugador = new string[2]; 
     
-    string[] jugador = new string[2]; 
-    
-    // pantalla bienvenida del juego
-    Console.WriteLine("0l:cccccccccccccccccccccccccccccccccclxK");
-    Console.WriteLine("o.*,**..****************......**.....**o");
-    Console.WriteLine("l*xKOxoc;,*****************************o");
-    Console.WriteLine("l*xNWMWNX0kdl:,**.................****,o");
-    Console.WriteLine("l.cxk0KXNWWWWX0kdoc;,*............****,o");
-    Console.WriteLine("l..*,;:loxO0KXXNNNX0Okxoc:,.....*******o");
-    Console.WriteLine("l........*,;:ldxO0XXXXXXK0kc*.*********o");
-    Console.WriteLine("l............*cdOKXXXXXKK0Ol*.******..*o");
-    Console.WriteLine("l........;oxOKXNNNXK00Okdl:*..........*o");
-    Console.WriteLine("l ......,kWWWWWNNKOdlc,*...............o");
-    Console.WriteLine("l .......lO0KXNNNNX0Oxoc;,.............l");
-    Console.WriteLine("l  .......*,:ldkO0XXXXXKKOx:...........l");
-    Console.WriteLine("l  .... .. ..*:oO0XXXXXKK0Oc...........l");
-    Console.WriteLine("l    ...,codOKXNNNXK00Okdo:*...........l");
-    Console.WriteLine("l..;cdkKXWWWNXK0Okdlc:,*...............l");
-    Console.WriteLine("c*xNWMWNXK0Oxoc;,*....  ...............l");
-    Console.WriteLine("c*kXK0kdl:;*...  ......................l");
-    Console.WriteLine("l           METRO DE MEDELLIN          l");
-    Console.WriteLine("Kdc:;;;::::ccccccccccccccccccccccccccco0");
-    Console.WriteLine("WWNXXXXNNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWM");
-    
-}
+        // pantalla bienvenida del juego
+        Console.WriteLine("0l:cccccccccccccccccccccccccccccccccclxK");
+        Console.WriteLine("o.*,**..****************......**.....**o");
+        Console.WriteLine("l*xKOxoc;,*****************************o");
+        Console.WriteLine("l*xNWMWNX0kdl:,**.................****,o");
+        Console.WriteLine("l.cxk0KXNWWWWX0kdoc;,*............****,o");
+        Console.WriteLine("l..*,;:loxO0KXXNNNX0Okxoc:,.....*******o");
+        Console.WriteLine("l........*,;:ldxO0XXXXXXK0kc*.*********o");
+        Console.WriteLine("l............*cdOKXXXXXKK0Ol*.******..*o");
+        Console.WriteLine("l........;oxOKXNNNXK00Okdl:*..........*o");
+        Console.WriteLine("l ......,kWWWWWNNKOdlc,*...............o");
+        Console.WriteLine("l .......lO0KXNNNNX0Oxoc;,.............l");
+        Console.WriteLine("l  .......*,:ldkO0XXXXXKKOx:...........l");
+        Console.WriteLine("l  .... .. ..*:oO0XXXXXKK0Oc...........l");
+        Console.WriteLine("l    ...,codOKXNNNXK00Okdo:*...........l");
+        Console.WriteLine("l..;cdkKXWWWNXK0Okdlc:,*...............l");
+        Console.WriteLine("c*xNWMWNXK0Oxoc;,*....  ...............l");
+        Console.WriteLine("c*kXK0kdl:;*...  ......................l");
+        Console.WriteLine("l           METRO DE MEDELLIN          l");
+        Console.WriteLine("Kdc:;;;::::ccccccccccccccccccccccccccco0");
+        Console.WriteLine("WWNXXXXNNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWM");
+        Thread.Sleep(3000);
+        Console.Clear();
+    }
 }
