@@ -25,6 +25,7 @@ using System.Threading;
 
 class MetroAventura {
     static void Main() {
+        
         // variables
         string[] estacionesMetro = {
             "Parque Berrio", 
@@ -63,5 +64,18 @@ class MetroAventura {
         Console.WriteLine("WWNXXXXNNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWM");
         Thread.Sleep(3000);
         Console.Clear();
+        
+        // desarrollo del juego
+        Console.WriteLine("MENU AVENTURA EN METRO DE MEDELLIN");
+        Console.WriteLine("1. Iniciar");
+        Console.WriteLine("2. Salir");
+        Console.Write("Escribir el número de la opción: ");
+        int opcionElegida = Int32.Parse(Console.ReadLine());
+        if (opcionElegida == 1){
+            
+        }
+        if (opcionElegida == 2){
+            
+        }
     }
 }
