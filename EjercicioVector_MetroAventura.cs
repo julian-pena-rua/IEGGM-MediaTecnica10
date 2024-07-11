@@ -67,7 +67,7 @@ class MetroAventura {
         
         // desarrollo del juego
         Console.WriteLine("MENU AVENTURA EN METRO DE MEDELLIN");
-        Console.WriteLine("1. Iniciar");
+        Console.WriteLine("1. Jugar");
         Console.WriteLine("2. Salir");
         Console.Write("Escribir el número de la opción: ");
         int opcionElegida = Int32.Parse(Console.ReadLine());
