@@ -87,8 +87,23 @@ class MetroAventura {
                 Console.Write("Estación " + (i+1) + ":");
                 jugador[i] = Console.ReadLine();
             }
+            
             // validar si cumple con el orden especificado
+            bool haGanado = true;
+            for (int i = 0; i < 2; i++) 
+            {
+                if (estacionesOrdenVisita[i] != jugador[i]) {
+                    haGanado = false;
+                }
+            }
+            
             // mostrar resultado
+            if (haGanado){
+                Console.WriteLine("Has ganado");
+            }
+            else{
+                Console.WriteLine("Has perdido");
+            }
         }
         if (opcionElegida == 2){
             Console.WriteLine("Saliendo del programa...");
