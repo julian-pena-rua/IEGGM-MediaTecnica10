@@ -75,7 +75,7 @@ class MetroAventura {
             
         }
         if (opcionElegida == 2){
-            
+            Console.WriteLine("Saliendo del programa...");
         }
     }
 }
