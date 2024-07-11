@@ -23,6 +23,20 @@ Parque Explora, el Jardín Botánico y el Parque Arví.
 using System;
 class MetroAventura {
   static void Main() {
+    // variables
+    string[] estacionesMetro = {
+        "Parque Berrio", 
+        "Universidad",
+        "Acevedo",
+        "Arví",
+        "Niquia",
+        "Bello"}; 
+        
+    string[] estacionesOrdenVisita = {
+        "Universidad",
+        "Arví"};
+    
+    string[] jugador = new string[2]; 
     
   }
 }
