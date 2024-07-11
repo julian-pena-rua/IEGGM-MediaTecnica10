@@ -82,11 +82,11 @@ class MetroAventura {
             // solicita al jugador las estaciones deseadas (2)
             Console.WriteLine("Escribir la ruta deseada, sólo dos estaciones");
             
-            for (int i = 0; i < 6; i++) 
+            for (int i = 0; i < 2; i++) 
             {
-                Console.Write("Estación " + i ":");
+                Console.Write("Estación " + (i+1) + ":");
+                jugador[i] = Console.ReadLine();
             }
-            
             // validar si cumple con el orden especificado
             // mostrar resultado
         }
