@@ -31,13 +31,13 @@ class MetroAventura {
             "Parque Berrio", 
             "Universidad",
             "Acevedo",
-            "Arví",
+            "Arvi",
             "Niquia",
             "Bello"}; 
         
         string[] estacionesOrdenVisita = {
             "Universidad",
-            "Arví"};
+            "Arvi"};
         
         string[] jugador = new string[2]; 
     
@@ -72,7 +72,23 @@ class MetroAventura {
         Console.Write("Escribir el número de la opción: ");
         int opcionElegida = Int32.Parse(Console.ReadLine());
         if (opcionElegida == 1){
+            // muestran las estaciones de destino
+            Console.WriteLine("Elegir entre las opciones siguientes:");
+            for (int i = 0; i < 6; i++) 
+            {
+                Console.WriteLine( estacionesMetro[i] );
+            }
             
+            // solicita al jugador las estaciones deseadas (2)
+            Console.WriteLine("Escribir la ruta deseada, sólo dos estaciones");
+            
+            for (int i = 0; i < 6; i++) 
+            {
+                Console.Write("Estación " + i ":");
+            }
+            
+            // validar si cumple con el orden especificado
+            // mostrar resultado
         }
         if (opcionElegida == 2){
             Console.WriteLine("Saliendo del programa...");
