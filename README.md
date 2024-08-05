@@ -25,7 +25,7 @@ Este proyecto no requiere instalación de software complejo. Puedes comenzar a p
 1. **Bloc de notas**: Escribe tu código en un archivo de texto simple con extensión `.cs`.
 2. **Compiladores en línea**: Utiliza un compilador en línea como [OnlineGDB](https://www.onlinegdb.com/), [dotnetfiddle.net](https://dotnetfiddle.net/) o [repl.it](https://repl.it/~) para escribir y ejecutar tu código en C#.
 
-![Compilador en línea](https://via.placeholder.com/600x400)
+![Compilador en línea](https://miro.medium.com/v2/resize:fit:1400/1*p1bPs9iGSJFOmviwGQVcww.gif)
 
 ## Uso
 Para empezar a utilizar el proyecto y explorar los diferentes conceptos de programación:
@@ -38,16 +38,16 @@ Para empezar a utilizar el proyecto y explorar los diferentes conceptos de progr
     - Ejecuta el código para ver los resultados.
 
     Carpeta por carpeta:
-    - `animaciones`: Ejemplos y ejercicios de animaciones en C#.
-    - `ciclos`: Explicaciones y ejemplos de estructuras de control de ciclos.
-    - `decision`: Ejemplos de estructuras de decisión (if, switch).
-    - `escribir`: Ejercicios sobre cómo escribir datos en la consola.
-    - `leer`: Ejemplos de lectura de datos desde la consola.
-    - `subalgoritmos`: Ejemplos de subalgoritmos y funciones.
-    - `vectores y matrices`: Ejercicios con vectores y matrices.
+    - `1 escribir`: Ejercicios sobre cómo escribir datos en la consola.
+    - `1 leer`: Ejemplos de lectura de datos desde la consola.
+    - `2 decision`: Ejemplos de estructuras de decisión (if, switch).
+    - `3 ciclos`: Explicaciones y ejemplos de estructuras de control de ciclos.
+    - `3.5 animaciones`: Ejemplos y ejercicios de animaciones en C#.
+    - `4 vectores y matrices`: Ejercicios con vectores y matrices.
+    - `5 subalgoritmos`: Ejemplos de subalgoritmos y funciones.
     - `errores comunes`: Ejemplos y soluciones a errores comunes en programación.
 
-![Uso del Bloc de notas](https://via.placeholder.com/600x400)
+![Uso del Bloc de notas](https://media.tenor.com/w7LOMsjcrOoAAAAM/technology-copy.gif/220x138)
 
 ## Características
 - **Educativo**: Diseñado específicamente para enseñar programación a estudiantes de diversas edades.
@@ -55,24 +55,14 @@ Para empezar a utilizar el proyecto y explorar los diferentes conceptos de progr
 - **Interactivo**: Incluye ejemplos prácticos y ejercicios interactivos.
 - **Modular**: Estructurado en carpetas temáticas para facilitar el aprendizaje progresivo.
 
-## Capturas de Pantalla
-![Animaciones](https://via.placeholder.com/600x400)
-*Descripción de la captura de pantalla de la carpeta de animaciones.*
-
-![Ciclos](https://via.placeholder.com/600x400)
-*Descripción de la captura de pantalla de la carpeta de ciclos.*
-
-![Decision](https://via.placeholder.com/600x400)
-*Descripción de la captura de pantalla de la carpeta de decisión.*
-
 ## Guía de Contribución
 ¡Tu contribución es bienvenida! Sigue estos pasos para contribuir:
 
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature/tu-contribución`).
-3. Haz tus cambios y confirma tus commits (`git commit -m 'Añadir nueva característica'`).
-4. Empuja la rama (`git push origin feature/tu-contribución`).
-5. Abre un Pull Request y describe los cambios propuestos.
+1. Haz un 'fork' del proyecto.
+2. Crea una nueva rama o 'branch' (`git checkout -b feature/tu-contribución`).
+3. Haz tus cambios y confirma tus 'commits' (`git commit -m 'Añadir nueva característica'`).
+4. Empuja la rama o ´branch' (`git push origin feature/tu-contribución`).
+5. Abre un 'Pull Request' y describe los cambios propuestos.
 
 Para enviar ejercicios, sigue las pautas de contribución y asegúrate de que sean revisados y validados antes de su inclusión en el proyecto.
 
@@ -88,16 +78,20 @@ Este proyecto está licenciado bajo la Licencia Copyleft. Consulta el archivo [L
 ## Contacto
 Para preguntas o soporte, puedes contactarnos a través de:
 
-- Correo electrónico: contacto@iegmarquez.edu.co
-- Página web: [IEGG MARQUEZ](https://iegmarquez.edu.co)
+- Correo electrónico: julian.pena@pascualbravo.edu.co
+- Página web: [Pascual Bravo](https://pascualbravo.edu.co/)
 
 ## Agradecimientos
 Agradecemos a todas las personas, bibliotecas y herramientas que han contribuido a este proyecto:
 
 - [dotnetfiddle.net](https://dotnetfiddle.net)
 - [repl.it](https://repl.it/~)
-- [Colaborador Nombre](https://github.com/colaborador)
+- [OnlineGDB](https://www.onlinegdb.com/)
+
+
+
 
 ## Referencias
+- [W3Schools](https://www.w3schools.com/cs/index.php)
 - [Documentación de C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 - [Tutoriales de Programación en C#](https://www.learn-cs.org/)

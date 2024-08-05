@@ -12,7 +12,7 @@ class Program
 {
     static void Main()
     {
-        Console.Clear();
+        ___________
         Console.WriteLine("Acceso denegado");
     }
 }

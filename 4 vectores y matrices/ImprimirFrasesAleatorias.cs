@@ -1,7 +1,4 @@
 /*
-
-
-    
     Un cliente solicita una mini app en consola que imprima frases 
     de forma aleatoria cada que es ejecutado.
 */
